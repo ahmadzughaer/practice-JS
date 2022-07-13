@@ -23,3 +23,19 @@ const apartment2 = {
     }
   };
   
+
+  // retrieve data from object 
+
+  const apartment3 = {
+    imgUrl: "https://via.placeholder.com/640x480",
+    descr: "Spacious apartment in the city center",
+    rating: 4,
+    price: 2153,
+    tags: ["premium", "promoted", "top"],
+  };
+  
+  const aptRating = apartment3.rating;
+  const aptDescr = apartment3.descr;
+  const aptPrice = apartment3.price;
+  const aptTags = apartment3.tags;
+  
