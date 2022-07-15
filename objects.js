@@ -59,3 +59,19 @@ const apartment2 = {
   const firstTag = apartment4.tags[0];
   const lastTag = apartment.tags[apartment4.tags.length -1];
   
+
+  // square brackets expression 
+
+  const apartment5 = {
+    imgUrl: "https://via.placeholder.com/640x480",
+    descr: "Spacious apartment in the city center",
+    rating: 4,
+    price: 2153,
+    tags: ["premium", "promoted", "top"],
+  };
+  
+  const aptRating1 = apartment5["rating"];
+  const aptDescr1 = apartment5["descr"];
+  const aptPrice1 = apartment5["price"];
+  const aptTags1 = apartment5["tags"];
+  
