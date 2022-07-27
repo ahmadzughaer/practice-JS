@@ -74,4 +74,26 @@ const apartment2 = {
   const aptDescr1 = apartment5["descr"];
   const aptPrice1 = apartment5["price"];
   const aptTags1 = apartment5["tags"];
+
+
+  // update values 
+  const apartment112 = {
+    imgUrl: "https://via.placeholder.com/640x480",
+    descr: "Spacious apartment in the city center",
+    rating: 4,
+    price: 2153,
+    tags: ["premium", "promoted", "top"],
+    owner: {
+      name: "Henry",
+      phone: "982-126-1588",
+      email: "henry.carter@aptmail.com",
+    },
+  };
+  
+  apartment112.price = 5000;
+  apartment112.rating = 4.7;
+  apartment112.owner.name = 'Henry Sibola';
+  apartment112.tags.push('trusted')
+  
+  
   
